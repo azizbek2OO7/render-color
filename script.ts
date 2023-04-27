@@ -51,7 +51,7 @@ class UI {
       setTimeout(() => {
         this.renderCell();
       }, 100);
-      this.cardElm.textContent = "";
+      this.cardElm.textContent = 8;
       this.clickElm.textContent = "";
       document.body.style.backgroundColor = "#fff";
       this.wrapper.style.overflowY = "hidden";
